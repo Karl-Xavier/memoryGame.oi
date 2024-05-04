@@ -1,4 +1,4 @@
-const emojis = ["A", "A", "B", "B", "C", "C", "D", "D", "E", "E", "F", "F", "G", "G", "H", "H"];
+const emojis = ["😊", "😊", "😂", "😂", "🤣", "🤣", "❤", "❤", "😒", "😒", "😎", "😎", "😃", "😃", "😁", "😁"];
 
 var shuf_emojis = emojis.sort(() => (Math.random() > .5) ? 2 : -1);
 for (let i = 0; i < emojis.length; i++) {
